@@ -1,27 +1,23 @@
+## Haiku 
+App built myself, Kim Kong @whatkimkong -- Typescript, Next.js, SWR, Chakra-UI within M-RN Stack --
+
+
+
+
+
+
 # MongoDB and Mongoose with Next.js
 
-This example shows how you can use a MongoDB database to support your Next.js application.
-
-**Pet** is an application that allows users to add their pets' information (e.g., name, owner's name, diet, age, dislikes, likes, and photo). They can also delete it or edit it anytime.
-
-## Deploy your own
-
-Once you have access to [the environment variables you'll need](#step-2-set-up-environment-variables), deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-mongodb-mongoose&project-name=with-mongodb-mongoose&repository-name=with-mongodb-mongoose&env=MONGODB_URI&envDescription=Required%20to%20connect%20the%20app%20with%20MongoDB&envLink=https://github.com/vercel/next.js/tree/canary/examples/with-mongodb-mongoose%23step-2-set-up-environment-variables)
-
+Starter example uses a MongoDB database to support a Next.js Application
 ## How to use
 
 Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
 
 ```bash
 npx create-next-app --example with-mongodb-mongoose with-mongodb-mongoose-app
-# or
-yarn create next-app --example with-mongodb-mongoose with-mongodb-mongoose-app
 ```
 
 ## Configuration
-
 ### Step 1. Get the connection string of your MongoDB server
 
 In the case of MongoDB Atlas, it should be a string like this:
@@ -57,6 +53,13 @@ yarn dev
 ```
 
 Your app should be up and running on [http://localhost:3000](http://localhost:3000)! If it doesn't work, post on [GitHub discussions](https://github.com/vercel/next.js/discussions).
+
+
+## Deploy steps
+
+Once you have access to [the environment variables you'll need](#step-2-set-up-environment-variables), deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-mongodb-mongoose&project-name=with-mongodb-mongoose&repository-name=with-mongodb-mongoose&env=MONGODB_URI&envDescription=Required%20to%20connect%20the%20app%20with%20MongoDB&envLink=https://github.com/vercel/next.js/tree/canary/examples/with-mongodb-mongoose%23step-2-set-up-environment-variables)
 
 ## Deploy on Vercel
 
