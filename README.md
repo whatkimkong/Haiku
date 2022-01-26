@@ -1,9 +1,5 @@
 ## Haiku 
-App built myself, Kim Kong @whatkimkong -- Typescript, Next.js, SWR, Chakra-UI within M-RN Stack --
-
-
-
-
+App built by Kim Kong @whatkimkong -- Typescript, Next.js, SWR, Chakra-UI within M-RN Stack --
 
 
 # MongoDB and Mongoose with Next.js
